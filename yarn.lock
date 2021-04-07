@@ -8035,6 +8035,19 @@ supports-color@^7.1.0:
   dependencies:
     has-flag "^4.0.0"
 
+sushi-sdk@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/sushi-sdk/-/sushi-sdk-0.0.2.tgz#90c02929524d662bc983fab17a3454dca9b02a88"
+  integrity sha512-zBaXfKSGoVKcquyRAnx9lXOZ3WcBsecZMX5SY6OV9E/v9rn0hCM0+KxIXzEIneFLPyzU5Pb8TPXUaVofTEDWtQ==
+  dependencies:
+    "@uniswap/v2-core" "^1.0.0"
+    big.js "^5.2.2"
+    decimal.js-light "^2.5.0"
+    jsbi "^3.1.1"
+    tiny-invariant "^1.1.0"
+    tiny-warning "^1.0.3"
+    toformat "^2.0.0"
+
 swarm-js@^0.1.40:
   version "0.1.40"
   resolved "https://registry.yarnpkg.com/swarm-js/-/swarm-js-0.1.40.tgz#b1bc7b6dcc76061f6c772203e004c11997e06b99"

@@ -225,7 +225,14 @@ const config: HardhatUserConfig = {
       saveDeployments: true,
       tags: ["staging"],
       gasMultiplier: 2,
-    }
+    },
+    'kuchain-test': {
+      url: "http://18.180.74.223:8545",
+      accounts,
+      chainId: 322,
+      live: true,
+      saveDeployments: true,
+    },
   },
   paths: {
     artifacts: "artifacts",
